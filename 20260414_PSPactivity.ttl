@@ -1,0 +1,2478 @@
+@prefix : <http://taxonomy.ceitec.vut.cz/pspact#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pspact: <http://taxonomy.ceitec.vut.cz/pspact#> .
+@base <http://taxonomy.ceitec.vut.cz/pspact#> .
+
+<http://taxonomy.ceitec.vut.cz/pspact> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AbsorptionCoefficient
+<https://taxonomy.ceitec.vut.cz/pspact#AbsorptionCoefficient> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> ;
+                                                              rdfs:label "Absorption coefficient" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging
+<https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> ;
+                                                         rdfs:label "Accelerated aging" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AccelerationShiftFactor
+<https://taxonomy.ceitec.vut.cz/pspact#AccelerationShiftFactor> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> ;
+                                                                rdfs:label "acceleration shift factor" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AcousticImpedance
+<https://taxonomy.ceitec.vut.cz/pspact#AcousticImpedance> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> ;
+                                                          rdfs:label "acoustic impedance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation
+<https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> ;
+                                                            rdfs:label "Acoustic propagation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational
+<https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                            rdfs:label "Acoustic & Vibrational" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ActivationEnergy
+<https://taxonomy.ceitec.vut.cz/pspact#ActivationEnergy> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> ;
+                                                         rdfs:label "activation energy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing
+<https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                              rdfs:label "Additive Manufacturing" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AdhesionIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#AdhesionIndicators> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+                                                           rdfs:label "adhesion indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AdhesionStrength
+<https://taxonomy.ceitec.vut.cz/pspact#AdhesionStrength> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> ;
+                                                         rdfs:label "Adhesion strength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining
+<https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly> ;
+                                                              rdfs:label "Adhesive & hybrid joining" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Anisotropy
+<https://taxonomy.ceitec.vut.cz/pspact#Anisotropy> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> ;
+                                                   rdfs:label "anisotropy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ArrheniusActivationEnergy
+<https://taxonomy.ceitec.vut.cz/pspact#ArrheniusActivationEnergy> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> ;
+                                                                  rdfs:label "Arrhenius activation energy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AspectRatio
+<https://taxonomy.ceitec.vut.cz/pspact#AspectRatio> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+                                                    rdfs:label "aspect ratio" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AsperityDistribution
+<https://taxonomy.ceitec.vut.cz/pspact#AsperityDistribution> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography> ;
+                                                             rdfs:label "asperity distribution" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Atmosphere
+<https://taxonomy.ceitec.vut.cz/pspact#Atmosphere> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+                                                   rdfs:label "atmosphere" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination
+<https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+                                                                  rdfs:label "Atomic bonding & coordination" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure
+<https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> ;
+                                                                 rdfs:label "Atomic & Molecular structure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics
+<https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> ;
+                                                          rdfs:label "Atomistic dynamics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Attenuation
+<https://taxonomy.ceitec.vut.cz/pspact#Attenuation> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> ;
+                                                    rdfs:label "attenuation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#B10Life
+<https://taxonomy.ceitec.vut.cz/pspact#B10Life> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> ;
+                                                rdfs:label "B10 life" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BandGap
+<https://taxonomy.ceitec.vut.cz/pspact#BandGap> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> ;
+                                                rdfs:label "Band gap" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BandStructure
+<https://taxonomy.ceitec.vut.cz/pspact#BandStructure> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+                                                      rdfs:label "band structure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BinderContent
+<https://taxonomy.ceitec.vut.cz/pspact#BinderContent> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+                                                      rdfs:label "binder content" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility
+<https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> ;
+                                                         rdfs:label "Biocompatibility" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BondStrengthIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#BondStrengthIndicators> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+                                                               rdfs:label "bond strength indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BondingType
+<https://taxonomy.ceitec.vut.cz/pspact#BondingType> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> ;
+                                                    rdfs:label "bonding type" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BondlineThickness
+<https://taxonomy.ceitec.vut.cz/pspact#BondlineThickness> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> ;
+                                                          rdfs:label "bondline thickness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis
+<https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring> ;
+                                                          rdfs:label "Bottom-up synthesis" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BoundaryType
+<https://taxonomy.ceitec.vut.cz/pspact#BoundaryType> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> ;
+                                                     rdfs:label "boundary type" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BreakdownStrength
+<https://taxonomy.ceitec.vut.cz/pspact#BreakdownStrength> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> ;
+                                                          rdfs:label "breakdown strength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BreakthroughTime
+<https://taxonomy.ceitec.vut.cz/pspact#BreakthroughTime> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife> ;
+                                                         rdfs:label "breakthrough time" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BuildOrientation
+<https://taxonomy.ceitec.vut.cz/pspact#BuildOrientation> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+                                                         rdfs:label "build orientation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#BurrEdgeIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#BurrEdgeIndicators> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> ;
+                                                           rdfs:label "burr/edge indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CAI
+<https://taxonomy.ceitec.vut.cz/pspact#CAI> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> ;
+                                            rdfs:label "CAI (compression after impact)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CTE
+<https://taxonomy.ceitec.vut.cz/pspact#CTE> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> ;
+                                            rdfs:label "CTE" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CalibrationError
+<https://taxonomy.ceitec.vut.cz/pspact#CalibrationError> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> ;
+                                                         rdfs:label "calibration error" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Calorimetry
+<https://taxonomy.ceitec.vut.cz/pspact#Calorimetry> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+                                                    rdfs:label "Calorimetry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CandidateRankings
+<https://taxonomy.ceitec.vut.cz/pspact#CandidateRankings> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+                                                          rdfs:label "candidate rankings" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CarrierMobilityConcentration
+<https://taxonomy.ceitec.vut.cz/pspact#CarrierMobilityConcentration> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> ;
+                                                                     rdfs:label "carrier mobility/concentration" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CarrierType
+<https://taxonomy.ceitec.vut.cz/pspact#CarrierType> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> ;
+                                                    rdfs:label "carrier type" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CastingMolding
+<https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> ;
+                                                       rdfs:label "Casting & molding" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity
+<https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+                                                          rdfs:label "Catalytic activity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CellViability
+<https://taxonomy.ceitec.vut.cz/pspact#CellViability> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> ;
+                                                      rdfs:label "Cell viability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ChargeDischargeCurves
+<https://taxonomy.ceitec.vut.cz/pspact#ChargeDischargeCurves> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> ;
+                                                              rdfs:label "charge/discharge curves" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport
+<https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+                                                        rdfs:label "Charge transport" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical
+<https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                                rdfs:label "Chemical & Electrochemical" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Chemistry
+<https://taxonomy.ceitec.vut.cz/pspact#Chemistry> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+                                                  rdfs:label "chemistry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Chemistry_Modification
+<https://taxonomy.ceitec.vut.cz/pspact#Chemistry_Modification> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+                                                               rdfs:label "chemistry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CoarseningRates
+<https://taxonomy.ceitec.vut.cz/pspact#CoarseningRates> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> ;
+                                                        rdfs:label "coarsening rates" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CoatingThickness
+<https://taxonomy.ceitec.vut.cz/pspact#CoatingThickness> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+                                                         rdfs:label "Coating thickness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CoefficientOfFriction
+<https://taxonomy.ceitec.vut.cz/pspact#CoefficientOfFriction> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication> ;
+                                                              rdfs:label "Coefficient of friction" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Coercivity
+<https://taxonomy.ceitec.vut.cz/pspact#Coercivity> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> ;
+                                                   rdfs:label "Coercivity (Hc)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ColloidalStability
+<https://taxonomy.ceitec.vut.cz/pspact#ColloidalStability> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+                                                           rdfs:label "colloidal stability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading
+<https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance> ;
+                                                        rdfs:label "Combined loading" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CompactionPressure
+<https://taxonomy.ceitec.vut.cz/pspact#CompactionPressure> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+                                                           rdfs:label "Compaction pressure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CompositionalGradients
+<https://taxonomy.ceitec.vut.cz/pspact#CompositionalGradients> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> ;
+                                                               rdfs:label "compositional gradients" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Conductivity
+<https://taxonomy.ceitec.vut.cz/pspact#Conductivity> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> ;
+                                                     rdfs:label "Conductivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Conformality
+<https://taxonomy.ceitec.vut.cz/pspact#Conformality> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+                                                     rdfs:label "conformality" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Connectivity
+<https://taxonomy.ceitec.vut.cz/pspact#Connectivity> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> ;
+                                                     rdfs:label "connectivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Connectivity_Porosity
+<https://taxonomy.ceitec.vut.cz/pspact#Connectivity_Porosity> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> ;
+                                                              rdfs:label "connectivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Consolidation
+<https://taxonomy.ceitec.vut.cz/pspact#Consolidation> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                      rdfs:label "Consolidation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ContactAngle
+<https://taxonomy.ceitec.vut.cz/pspact#ContactAngle> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> ;
+                                                     rdfs:label "Contact angle" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ContaminationLevel
+<https://taxonomy.ceitec.vut.cz/pspact#ContaminationLevel> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> ;
+                                                           rdfs:label "contamination level" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Continuity
+<https://taxonomy.ceitec.vut.cz/pspact#Continuity> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+                                                   rdfs:label "continuity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess
+<https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+                                                         rdfs:label "Continuum & Process" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Conversion
+<https://taxonomy.ceitec.vut.cz/pspact#Conversion> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> ;
+                                                   rdfs:label "conversion" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CoolingRate
+<https://taxonomy.ceitec.vut.cz/pspact#CoolingRate> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+                                                    rdfs:label "cooling rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CoolingRates
+<https://taxonomy.ceitec.vut.cz/pspact#CoolingRates> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+                                                     rdfs:label "cooling rates" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CoordinationNumber
+<https://taxonomy.ceitec.vut.cz/pspact#CoordinationNumber> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> ;
+                                                           rdfs:label "Coordination number" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation
+<https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+                                                           rdfs:label "Corrosion & oxidation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CorrosionRate
+<https://taxonomy.ceitec.vut.cz/pspact#CorrosionRate> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> ;
+                                                      rdfs:label "Corrosion rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CoulombicEfficiency
+<https://taxonomy.ceitec.vut.cz/pspact#CoulombicEfficiency> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> ;
+                                                            rdfs:label "Coulombic efficiency" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Cp
+<https://taxonomy.ceitec.vut.cz/pspact#Cp> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Calorimetry> ;
+                                           rdfs:label "Cp" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CrackLengthDepth
+<https://taxonomy.ceitec.vut.cz/pspact#CrackLengthDepth> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+                                                         rdfs:label "Crack length/depth" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CrackPath
+<https://taxonomy.ceitec.vut.cz/pspact#CrackPath> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> ;
+                                                  rdfs:label "crack path" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CreepFatigueInteraction
+<https://taxonomy.ceitec.vut.cz/pspact#CreepFatigueInteraction> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> ;
+                                                                rdfs:label "creep–fatigue interaction" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CreepRate
+<https://taxonomy.ceitec.vut.cz/pspact#CreepRate> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> ;
+                                                  rdfs:label "Creep rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation
+<https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+                                                        rdfs:label "Creep & relaxation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CriticalFlawSize
+<https://taxonomy.ceitec.vut.cz/pspact#CriticalFlawSize> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> ;
+                                                         rdfs:label "Critical flaw size" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance
+<https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> ;
+                                                             rdfs:label "Cryogenic performance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure
+<https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+                                                         rdfs:label "Crystal structure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Crystallinity
+<https://taxonomy.ceitec.vut.cz/pspact#Crystallinity> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+                                                      rdfs:label "Crystallinity"@en .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture
+<https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+                                                                rdfs:label "Crystallographic texture" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#CureCycle
+<https://taxonomy.ceitec.vut.cz/pspact#CureCycle> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> ;
+                                                  rdfs:label "Cure cycle" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DBTT
+<https://taxonomy.ceitec.vut.cz/pspact#DBTT> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> ;
+                                             rdfs:label "DBTT (ductile-to-brittle transition temperature)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DOS
+<https://taxonomy.ceitec.vut.cz/pspact#DOS> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+                                            rdfs:label "DOS" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DaDn
+<https://taxonomy.ceitec.vut.cz/pspact#DaDn> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> ;
+                                             rdfs:label "da/dN" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping
+<https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+                                                            rdfs:label "Damage & defect mapping" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DamageHAZ
+<https://taxonomy.ceitec.vut.cz/pspact#DamageHAZ> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+                                                  rdfs:label "damage/HAZ" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DamageIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#DamageIndicators> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> ;
+                                                         rdfs:label "damage indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance
+<https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> ;
+                                                        rdfs:label "Damage Tolerance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption
+<https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> ;
+                                                          rdfs:label "Damping & absorption" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DampingRatio
+<https://taxonomy.ceitec.vut.cz/pspact#DampingRatio> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+                                                     rdfs:label "damping ratio" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DataCuration
+<https://taxonomy.ceitec.vut.cz/pspact#DataCuration> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> ;
+                                                     rdfs:label "Data curation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DatasetScope
+<https://taxonomy.ceitec.vut.cz/pspact#DatasetScope> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+                                                     rdfs:label "Dataset scope" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DebrisMorphology
+<https://taxonomy.ceitec.vut.cz/pspact#DebrisMorphology> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#WearResistance> ;
+                                                         rdfs:label "debris morphology" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DebyeTemperature
+<https://taxonomy.ceitec.vut.cz/pspact#DebyeTemperature> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics> ;
+                                                         rdfs:label "Debye temperature" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DecompositionTemperature
+<https://taxonomy.ceitec.vut.cz/pspact#DecompositionTemperature> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalStability> ;
+                                                                 rdfs:label "Decomposition temperature" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DefectFormationEnergies
+<https://taxonomy.ceitec.vut.cz/pspact#DefectFormationEnergies> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> ;
+                                                                rdfs:label "Defect formation energies" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DefectLocation
+<https://taxonomy.ceitec.vut.cz/pspact#DefectLocation> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+                                                       rdfs:label "defect location" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics
+<https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> ;
+                                                               rdfs:label "Defect & reaction kinetics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity
+<https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance> ;
+                                                          rdfs:label "Defect sensitivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DegradationFactor
+<https://taxonomy.ceitec.vut.cz/pspact#DegradationFactor> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> ;
+                                                          rdfs:label "Degradation factor" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DelaminationArea
+<https://taxonomy.ceitec.vut.cz/pspact#DelaminationArea> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+                                                         rdfs:label "delamination area" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DeltaSM
+<https://taxonomy.ceitec.vut.cz/pspact#DeltaSM> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect> ;
+                                                rdfs:label "ΔSM" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DeltaTad
+<https://taxonomy.ceitec.vut.cz/pspact#DeltaTad> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect> ;
+                                                 rdfs:label "ΔTad" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DensificationRate
+<https://taxonomy.ceitec.vut.cz/pspact#DensificationRate> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> ;
+                                                          rdfs:label "densification rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DensityGradients
+<https://taxonomy.ceitec.vut.cz/pspact#DensityGradients> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> ;
+                                                         rdfs:label "density gradients" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DensityUniformity
+<https://taxonomy.ceitec.vut.cz/pspact#DensityUniformity> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+                                                          rdfs:label "density uniformity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DepositionEfficiency
+<https://taxonomy.ceitec.vut.cz/pspact#DepositionEfficiency> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+                                                             rdfs:label "deposition efficiency" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DepositionRate
+<https://taxonomy.ceitec.vut.cz/pspact#DepositionRate> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+                                                       rdfs:label "deposition rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery
+<https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+                                                        rdfs:label "Design & discovery" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DielectricConstant
+<https://taxonomy.ceitec.vut.cz/pspact#DielectricConstant> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> ;
+                                                           rdfs:label "Dielectric constant (εr)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric
+<https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+                                                                rdfs:label "Dielectric & ferroelectric" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient
+<https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MassTransport> ;
+                                                             rdfs:label "Diffusion coefficient" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient_Atomistic
+<https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient_Atomistic> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+                                                                       rdfs:label "Diffusion coefficient" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DimensionalTolerance
+<https://taxonomy.ceitec.vut.cz/pspact#DimensionalTolerance> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> ;
+                                                             rdfs:label "dimensional tolerance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DisorderParameter
+<https://taxonomy.ceitec.vut.cz/pspact#DisorderParameter> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> ;
+                                                          rdfs:label "disorder parameter" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Dpa
+<https://taxonomy.ceitec.vut.cz/pspact#Dpa> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+                                            rdfs:label "dpa" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DrawRatio
+<https://taxonomy.ceitec.vut.cz/pspact#DrawRatio> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> ;
+                                                  rdfs:label "draw ratio" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DriftRate
+<https://taxonomy.ceitec.vut.cz/pspact#DriftRate> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> ;
+                                                  rdfs:label "drift rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Ductility
+<https://taxonomy.ceitec.vut.cz/pspact#Ductility> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> ;
+                                                  rdfs:label "ductility" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime
+<https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> ;
+                                                           rdfs:label "Durability & Lifetime" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EGKModuli
+<https://taxonomy.ceitec.vut.cz/pspact#EGKModuli> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness> ;
+                                                  rdfs:label "E/G/K moduli" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Ecorr
+<https://taxonomy.ceitec.vut.cz/pspact#Ecorr> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> ;
+                                              rdfs:label "Ecorr" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EfficiencyUnderLoad
+<https://taxonomy.ceitec.vut.cz/pspact#EfficiencyUnderLoad> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> ;
+                                                            rdfs:label "efficiency under load" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness
+<https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+                                                            rdfs:label "Elasticity & stiffness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic
+<https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                             rdfs:label "Electrical & Electronic" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics
+<https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+                                                                rdfs:label "Electrochemical kinetics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage
+<https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+                                                               rdfs:label "Electrochemical storage" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure
+<https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> ;
+                                                            rdfs:label "Electronic structure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElementaryComposition
+<https://taxonomy.ceitec.vut.cz/pspact#ElementaryComposition> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+                                                              rdfs:label "Elementary composition" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElementaryCompositionRelativeOrAbsolute
+<https://taxonomy.ceitec.vut.cz/pspact#ElementaryCompositionRelativeOrAbsolute> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElementaryComposition> ;
+                                                                                rdfs:label "Elementary composition (relative or absolute)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ElongationAtBreak
+<https://taxonomy.ceitec.vut.cz/pspact#ElongationAtBreak> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> ;
+                                                          rdfs:label "Elongation at break" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EmbrittlementIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#EmbrittlementIndicators> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+                                                                rdfs:label "embrittlement indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EmissionWavelength
+<https://taxonomy.ceitec.vut.cz/pspact#EmissionWavelength> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Luminescence> ;
+                                                           rdfs:label "Emission wavelength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EnduranceLimit
+<https://taxonomy.ceitec.vut.cz/pspact#EnduranceLimit> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> ;
+                                                       rdfs:label "endurance limit" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EnergyAboveHull
+<https://taxonomy.ceitec.vut.cz/pspact#EnergyAboveHull> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+                                                        rdfs:label "energy above hull" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EnergyInput
+<https://taxonomy.ceitec.vut.cz/pspact#EnergyInput> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+                                                    rdfs:label "Energy input" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EnthalpyOfTransition
+<https://taxonomy.ceitec.vut.cz/pspact#EnthalpyOfTransition> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Calorimetry> ;
+                                                             rdfs:label "enthalpy of transition (ΔH)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#EtchRate
+<https://taxonomy.ceitec.vut.cz/pspact#EtchRate> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+                                                 rdfs:label "etch rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments
+<https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                            rdfs:label "Extreme Environments" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ExtrusionTemperaturePressure
+<https://taxonomy.ceitec.vut.cz/pspact#ExtrusionTemperaturePressure> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> ;
+                                                                     rdfs:label "Extrusion temperature/pressure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis
+<https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance> ;
+                                                            rdfs:label "Failure mode analysis" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior
+<https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+                                                              rdfs:label "Fatigue & cyclic behavior" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FeatureSize
+<https://taxonomy.ceitec.vut.cz/pspact#FeatureSize> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+                                                    rdfs:label "Feature size" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FeedstockSynthesis
+<https://taxonomy.ceitec.vut.cz/pspact#FeedstockSynthesis> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                           rdfs:label "Feedstock & Synthesis" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity
+<https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                             rdfs:label "Finishing & Circularity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Flux
+<https://taxonomy.ceitec.vut.cz/pspact#Flux> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MassTransport> ;
+                                             rdfs:label "flux" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion
+<https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> ;
+                                                         rdfs:label "Forming & extrusion" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FractureAfterCycling
+<https://taxonomy.ceitec.vut.cz/pspact#FractureAfterCycling> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalShock> ;
+                                                             rdfs:label "fracture after cycling" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FractureSurfaceMorphology
+<https://taxonomy.ceitec.vut.cz/pspact#FractureSurfaceMorphology> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> ;
+                                                                  rdfs:label "Fracture surface morphology" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FractureToughness
+<https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+                                                          rdfs:label "Fracture & toughness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication
+<https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> ;
+                                                            rdfs:label "Friction & lubrication" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#FusionZoneWidth
+<https://taxonomy.ceitec.vut.cz/pspact#FusionZoneWidth> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> ;
+                                                        rdfs:label "fusion zone width" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture
+<https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+                                                          rdfs:label "Grain architecture" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter
+<https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+                                                               rdfs:label "Grain boundary character" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#GrainGrowthIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#GrainGrowthIndicators> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> ;
+                                                              rdfs:label "grain growth indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#GreenDensity
+<https://taxonomy.ceitec.vut.cz/pspact#GreenDensity> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+                                                     rdfs:label "green density" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HAZExtent
+<https://taxonomy.ceitec.vut.cz/pspact#HAZExtent> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> ;
+                                                  rdfs:label "HAZ (heat-affected zone) extent" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HAZWidth
+<https://taxonomy.ceitec.vut.cz/pspact#HAZWidth> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+                                                 rdfs:label "HAZ width" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HV_HB_HR
+<https://taxonomy.ceitec.vut.cz/pspact#HV_HB_HR> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Hardness> ;
+                                                 rdfs:label "HV/HB/HR" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HallEffect
+<https://taxonomy.ceitec.vut.cz/pspact#HallEffect> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport> ;
+                                                   rdfs:label "Hall effect" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Hardness
+<https://taxonomy.ceitec.vut.cz/pspact#Hardness> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+                                                 rdfs:label "Hardness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HardnessChange
+<https://taxonomy.ceitec.vut.cz/pspact#HardnessChange> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+                                                       rdfs:label "hardness change" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HatchSpacing
+<https://taxonomy.ceitec.vut.cz/pspact#HatchSpacing> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+                                                     rdfs:label "hatch spacing" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Hc
+<https://taxonomy.ceitec.vut.cz/pspact#Hc> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> ;
+                                           rdfs:label "Hc" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HeatInput
+<https://taxonomy.ceitec.vut.cz/pspact#HeatInput> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+                                                  rdfs:label "Heat input" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery
+<https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> ;
+                                                                rdfs:label "High-throughput discovery" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#I0
+<https://taxonomy.ceitec.vut.cz/pspact#I0> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> ;
+                                           rdfs:label "i0" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Ic
+<https://taxonomy.ceitec.vut.cz/pspact#Ic> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> ;
+                                           rdfs:label "Ic" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy
+<https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> ;
+                                                     rdfs:label "impact energy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy_Cryogenic
+<https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy_Cryogenic> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> ;
+                                                               rdfs:label "impact energy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ImplantationDoseEnergy
+<https://taxonomy.ceitec.vut.cz/pspact#ImplantationDoseEnergy> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+                                                               rdfs:label "implantation dose/energy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#InitiationSite
+<https://taxonomy.ceitec.vut.cz/pspact#InitiationSite> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> ;
+                                                       rdfs:label "initiation site" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Integrity
+<https://taxonomy.ceitec.vut.cz/pspact#Integrity> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+                                                  rdfs:label "integrity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter
+<https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+                                                                     rdfs:label "Interface & interphase character" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#InterfaceThickness
+<https://taxonomy.ceitec.vut.cz/pspact#InterfaceThickness> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+                                                           rdfs:label "Interface thickness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion
+<https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> ;
+                                                            rdfs:label "Interfacial adhesion" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#IonicConductivity
+<https://taxonomy.ceitec.vut.cz/pspact#IonicConductivity> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> ;
+                                                          rdfs:label "Ionic conductivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#IonicTransport
+<https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+                                                       rdfs:label "Ionic transport" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly
+<https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                        rdfs:label "Joining & Assembly" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry
+<https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+                                                              rdfs:label "Joint & assembly geometry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#JointEfficiencyIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#JointEfficiencyIndicators> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+                                                                  rdfs:label "joint efficiency indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#KIC
+<https://taxonomy.ceitec.vut.cz/pspact#KIC> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> ;
+                                            rdfs:label "KIC" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LackOfFusionIndex
+<https://taxonomy.ceitec.vut.cz/pspact#LackOfFusionIndex> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+                                                          rdfs:label "lack-of-fusion index" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LatticeDistortion
+<https://taxonomy.ceitec.vut.cz/pspact#LatticeDistortion> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> ;
+                                                          rdfs:label "lattice distortion" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics
+<https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> ;
+                                                        rdfs:label "Lattice dynamics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LatticeParameters
+<https://taxonomy.ceitec.vut.cz/pspact#LatticeParameters> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+                                                          rdfs:label "Lattice parameters" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LayerThickness
+<https://taxonomy.ceitec.vut.cz/pspact#LayerThickness> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+                                                       rdfs:label "Layer thickness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication
+<https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing> ;
+                                                             rdfs:label "Layer-wise fabrication" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry
+<https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+                                                               rdfs:label "Layered & coating geometry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Lifetime
+<https://taxonomy.ceitec.vut.cz/pspact#Lifetime> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Luminescence> ;
+                                                 rdfs:label "lifetime" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LoopArea
+<https://taxonomy.ceitec.vut.cz/pspact#LoopArea> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> ;
+                                                 rdfs:label "loop area" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Acoustic
+<https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Acoustic> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+                                                             rdfs:label "loss tangent" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Dielectric
+<https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Dielectric> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> ;
+                                                               rdfs:label "loss tangent (tan δ)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LowTemperatureStrength
+<https://taxonomy.ceitec.vut.cz/pspact#LowTemperatureStrength> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> ;
+                                                               rdfs:label "Low-temperature strength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#LubricationFilmThickness
+<https://taxonomy.ceitec.vut.cz/pspact#LubricationFilmThickness> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication> ;
+                                                                 rdfs:label "lubrication film thickness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Luminescence
+<https://taxonomy.ceitec.vut.cz/pspact#Luminescence> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> ;
+                                                     rdfs:label "Luminescence" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MAE_RMSE_R2
+<https://taxonomy.ceitec.vut.cz/pspact#MAE_RMSE_R2> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> ;
+                                                    rdfs:label "MAE (Mean Absolute Error)/RMSE (Root Mean Squared Error) /R²( Coefficient of Determination)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MSD
+<https://taxonomy.ceitec.vut.cz/pspact#MSD> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+                                            rdfs:label "MSD" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MTTF
+<https://taxonomy.ceitec.vut.cz/pspact#MTTF> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> ;
+                                             rdfs:label "MTTF" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MachineLearning
+<https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> ;
+                                                        rdfs:label "Machine learning" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing
+<https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity> ;
+                                                           rdfs:label "Machining & finishing" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity
+<https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+                                                              rdfs:label "Macro-scale homogeneity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Macrostructure
+<https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> ;
+                                                       rdfs:label "Macrostructure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties
+<https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                           rdfs:label "Magnetic Properties" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching
+<https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+                                                          rdfs:label "Magnetic switching" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Magnetization
+<https://taxonomy.ceitec.vut.cz/pspact#Magnetization> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+                                                      rdfs:label "Magnetization" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport
+<https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+                                                         rdfs:label "Magneto-transport" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect
+<https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+                                                             rdfs:label "Magnetocaloric effect" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Magnetoresistance
+<https://taxonomy.ceitec.vut.cz/pspact#Magnetoresistance> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport> ;
+                                                          rdfs:label "Magnetoresistance (GMR/TMR/AMR)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MassLoss
+<https://taxonomy.ceitec.vut.cz/pspact#MassLoss> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalStability> ;
+                                                 rdfs:label "mass loss (%)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MassTransport
+<https://taxonomy.ceitec.vut.cz/pspact#MassTransport> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+                                                      rdfs:label "Mass transport" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MaterialLossRateVsTime
+<https://taxonomy.ceitec.vut.cz/pspact#MaterialLossRateVsTime> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife> ;
+                                                               rdfs:label "Material loss rate vs time" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics
+<https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+                                                             rdfs:label "Materials Informatics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MeanGrainSize
+<https://taxonomy.ceitec.vut.cz/pspact#MeanGrainSize> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+                                                      rdfs:label "Mean grain size" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties
+<https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                             rdfs:label "Mechanical Properties" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification
+<https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Consolidation> ;
+                                                              rdfs:label "Melting & solidification" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Microstructure
+<https://taxonomy.ceitec.vut.cz/pspact#Microstructure> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> ;
+                                                       rdfs:label "Microstructure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics
+<https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics> ;
+                                                               rdfs:label "Microstructure kinetics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MigrationBarriers
+<https://taxonomy.ceitec.vut.cz/pspact#MigrationBarriers> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> ;
+                                                          rdfs:label "migration barriers" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MisorientationAngle
+<https://taxonomy.ceitec.vut.cz/pspact#MisorientationAngle> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> ;
+                                                            rdfs:label "Misorientation angle" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ModifiedLayerThickness
+<https://taxonomy.ceitec.vut.cz/pspact#ModifiedLayerThickness> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+                                                               rdfs:label "Modified layer thickness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Moisture
+<https://taxonomy.ceitec.vut.cz/pspact#Moisture> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+                                                 rdfs:label "moisture" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MoldAtmosphere
+<https://taxonomy.ceitec.vut.cz/pspact#MoldAtmosphere> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+                                                       rdfs:label "mold atmosphere" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Morphology
+<https://taxonomy.ceitec.vut.cz/pspact#Morphology> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+                                                   rdfs:label "morphology" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Morphology_Precursor
+<https://taxonomy.ceitec.vut.cz/pspact#Morphology_Precursor> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+                                                             rdfs:label "morphology" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Mr
+<https://taxonomy.ceitec.vut.cz/pspact#Mr> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Magnetization> ;
+                                           rdfs:label "Mr" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Ms
+<https://taxonomy.ceitec.vut.cz/pspact#Ms> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Magnetization> ;
+                                           rdfs:label "Ms" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse
+<https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess> ;
+                                                           rdfs:label "Multi-scale response" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring
+<https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                        rdfs:label "Nano-structuring" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Nanohardness
+<https://taxonomy.ceitec.vut.cz/pspact#Nanohardness> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Hardness> ;
+                                                     rdfs:label "nanohardness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#NotchSensitivity
+<https://taxonomy.ceitec.vut.cz/pspact#NotchSensitivity> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> ;
+                                                         rdfs:label "notch sensitivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#NumberDensityEvolution
+<https://taxonomy.ceitec.vut.cz/pspact#NumberDensityEvolution> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> ;
+                                                               rdfs:label "number density evolution" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ODF
+<https://taxonomy.ceitec.vut.cz/pspact#ODF> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> ;
+                                            rdfs:label "ODF (orientation distribution function)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#OperationalStability
+<https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance> ;
+                                                             rdfs:label "Operational stability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties
+<https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                          rdfs:label "Optical Properties" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Overpotential
+<https://taxonomy.ceitec.vut.cz/pspact#Overpotential> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> ;
+                                                      rdfs:label "Overpotential" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#OxidationKinetics
+<https://taxonomy.ceitec.vut.cz/pspact#OxidationKinetics> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> ;
+                                                          rdfs:label "oxidation kinetics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#OxidationState
+<https://taxonomy.ceitec.vut.cz/pspact#OxidationState> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> ;
+                                                       rdfs:label "oxidation state" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PSPActivity
+<https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> rdf:type owl:Class ;
+                                                    rdfs:label "PSP Activity"@en .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ParetoFronts
+<https://taxonomy.ceitec.vut.cz/pspact#ParetoFronts> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+                                                     rdfs:label "Pareto fronts" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ParticleSize
+<https://taxonomy.ceitec.vut.cz/pspact#ParticleSize> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+                                                     rdfs:label "Particle size" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ParticleSizeDistribution
+<https://taxonomy.ceitec.vut.cz/pspact#ParticleSizeDistribution> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+                                                                 rdfs:label "Particle size distribution" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PatternFidelity
+<https://taxonomy.ceitec.vut.cz/pspact#PatternFidelity> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+                                                        rdfs:label "pattern fidelity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PeltierThomsonCoefficients
+<https://taxonomy.ceitec.vut.cz/pspact#PeltierThomsonCoefficients> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport> ;
+                                                                   rdfs:label "Peltier/Thomson coefficients" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation
+<https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+                                                              rdfs:label "Performance evaluation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Permeability
+<https://taxonomy.ceitec.vut.cz/pspact#Permeability> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MassTransport> ;
+                                                     rdfs:label "permeability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhaseBoundaries
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseBoundaries> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+                                                        rdfs:label "Phase boundaries" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+                                                                    rdfs:label "Phase distribution & morphology" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+                                                      rdfs:label "phase fraction" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction_Microstructure
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction_Microstructure> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> ;
+                                                                     rdfs:label "Phase fraction" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhaseFractions
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseFractions> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+                                                       rdfs:label "phase fractions" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhaseStability
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics> ;
+                                                       rdfs:label "Phase stability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhononDispersionDOS
+<https://taxonomy.ceitec.vut.cz/pspact#PhononDispersionDOS> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics> ;
+                                                            rdfs:label "Phonon dispersion/DOS" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhononModes
+<https://taxonomy.ceitec.vut.cz/pspact#PhononModes> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> ;
+                                                    rdfs:label "phonon modes" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse
+<https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> ;
+                                                         rdfs:label "Photonic response" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility
+<https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+                                                            rdfs:label "Plasticity & ductility" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure
+<https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+                                                             rdfs:label "Point defect structure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PoissonsRatio
+<https://taxonomy.ceitec.vut.cz/pspact#PoissonsRatio> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness> ;
+                                                      rdfs:label "Poisson’s ratio" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PoleFigures
+<https://taxonomy.ceitec.vut.cz/pspact#PoleFigures> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> ;
+                                                    rdfs:label "pole figures" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PoreSizeDistribution
+<https://taxonomy.ceitec.vut.cz/pspact#PoreSizeDistribution> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> ;
+                                                             rdfs:label "Pore size distribution" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PorosityDensity
+<https://taxonomy.ceitec.vut.cz/pspact#PorosityDensity> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+                                                        rdfs:label "porosity/density" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PorosityFraction
+<https://taxonomy.ceitec.vut.cz/pspact#PorosityFraction> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+                                                         rdfs:label "Porosity fraction" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis
+<https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+                                                             rdfs:label "Porosity & void analysis" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PouringTemperature
+<https://taxonomy.ceitec.vut.cz/pspact#PouringTemperature> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+                                                           rdfs:label "Pouring temperature" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction
+<https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> ;
+                                                         rdfs:label "Powder compaction" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PowerFactor
+<https://taxonomy.ceitec.vut.cz/pspact#PowerFactor> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency> ;
+                                                    rdfs:label "power factor (S²σ)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PrecipitateSizeDensity
+<https://taxonomy.ceitec.vut.cz/pspact#PrecipitateSizeDensity> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> ;
+                                                               rdfs:label "precipitate size/density" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation
+<https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FeedstockSynthesis> ;
+                                                             rdfs:label "Precursor preparation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PredictedPorosityRisk
+<https://taxonomy.ceitec.vut.cz/pspact#PredictedPorosityRisk> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+                                                              rdfs:label "predicted porosity risk" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PredictedSizeDistributionsVsTime
+<https://taxonomy.ceitec.vut.cz/pspact#PredictedSizeDistributionsVsTime> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> ;
+                                                                         rdfs:label "Predicted size distributions vs time" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PredictionIntervals
+<https://taxonomy.ceitec.vut.cz/pspact#PredictionIntervals> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> ;
+                                                            rdfs:label "prediction intervals" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PreferredOrientation
+<https://taxonomy.ceitec.vut.cz/pspact#PreferredOrientation> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> ;
+                                                             rdfs:label "Preferred orientation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation
+<https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Consolidation> ;
+                                                                      rdfs:label "Pressure-assisted consolidation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping
+<https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                       rdfs:label "Primary Shaping" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ProcessStability
+<https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing> ;
+                                                         rdfs:label "Process stability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks
+<https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess> ;
+                                                              rdfs:label "Process–structure links" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication
+<https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+                                                              rdfs:label "Processing & fabrication" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Proliferation
+<https://taxonomy.ceitec.vut.cz/pspact#Proliferation> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> ;
+                                                      rdfs:label "proliferation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ProofStress
+<https://taxonomy.ceitec.vut.cz/pspact#ProofStress> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+                                                    rdfs:label "proof stress" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis
+<https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+                                                         rdfs:label "Property analysis" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ProteinAdsorption
+<https://taxonomy.ceitec.vut.cz/pspact#ProteinAdsorption> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> ;
+                                                          rdfs:label "protein adsorption" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Provenance
+<https://taxonomy.ceitec.vut.cz/pspact#Provenance> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+                                                   rdfs:label "provenance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#PullOffForce
+<https://taxonomy.ceitec.vut.cz/pspact#PullOffForce> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> ;
+                                                     rdfs:label "pull-off force" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Purity
+<https://taxonomy.ceitec.vut.cz/pspact#Purity> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+                                               rdfs:label "purity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#QFactor
+<https://taxonomy.ceitec.vut.cz/pspact#QFactor> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+                                                rdfs:label "Q factor" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic
+<https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+                                                         rdfs:label "Quantum & Atomistic" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#QuantumYield
+<https://taxonomy.ceitec.vut.cz/pspact#QuantumYield> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Luminescence> ;
+                                                     rdfs:label "quantum yield" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength
+<https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+                                                            rdfs:label "Quasi-static strength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RDF
+<https://taxonomy.ceitec.vut.cz/pspact#RDF> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+                                            rdfs:label "RDF" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RaRz
+<https://taxonomy.ceitec.vut.cz/pspact#RaRz> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography> ;
+                                             rdfs:label "Ra/Rz" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage
+<https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> ;
+                                                        rdfs:label "Radiation damage" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RamanShift
+<https://taxonomy.ceitec.vut.cz/pspact#RamanShift> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> ;
+                                                   rdfs:label "Raman shift" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RateConstants
+<https://taxonomy.ceitec.vut.cz/pspact#RateConstants> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> ;
+                                                      rdfs:label "rate constants" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RecombinationLifetime
+<https://taxonomy.ceitec.vut.cz/pspact#RecombinationLifetime> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> ;
+                                                              rdfs:label "recombination lifetime" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RecoveryEfficiency
+<https://taxonomy.ceitec.vut.cz/pspact#RecoveryEfficiency> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> ;
+                                                           rdfs:label "Recovery efficiency" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RecyclateMorphology
+<https://taxonomy.ceitec.vut.cz/pspact#RecyclateMorphology> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> ;
+                                                            rdfs:label "recyclate morphology" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery
+<https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity> ;
+                                                          rdfs:label "Recycling & recovery" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ReductionOfArea
+<https://taxonomy.ceitec.vut.cz/pspact#ReductionOfArea> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> ;
+                                                        rdfs:label "reduction of area" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Reflectance
+<https://taxonomy.ceitec.vut.cz/pspact#Reflectance> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> ;
+                                                    rdfs:label "reflectance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RefractiveIndex
+<https://taxonomy.ceitec.vut.cz/pspact#RefractiveIndex> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> ;
+                                                        rdfs:label "refractive index" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#RelativeDensity
+<https://taxonomy.ceitec.vut.cz/pspact#RelativeDensity> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+                                                        rdfs:label "relative density" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure
+<https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> ;
+                                                           rdfs:label "Reliability & failure" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Repeatability
+<https://taxonomy.ceitec.vut.cz/pspact#Repeatability> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+                                                      rdfs:label "repeatability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ResidualStress
+<https://taxonomy.ceitec.vut.cz/pspact#ResidualStress> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> ;
+                                                       rdfs:label "residual stress" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Resistivity
+<https://taxonomy.ceitec.vut.cz/pspact#Resistivity> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> ;
+                                                    rdfs:label "resistivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Roughness
+<https://taxonomy.ceitec.vut.cz/pspact#Roughness> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+                                                  rdfs:label "roughness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Roughness_Modification
+<https://taxonomy.ceitec.vut.cz/pspact#Roughness_Modification> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+                                                               rdfs:label "roughness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Roughness_Surface
+<https://taxonomy.ceitec.vut.cz/pspact#Roughness_Surface> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+                                                          rdfs:label "roughness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SCCIndex
+<https://taxonomy.ceitec.vut.cz/pspact#SCCIndex> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> ;
+                                                 rdfs:label "SCC index" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SNResponse
+<https://taxonomy.ceitec.vut.cz/pspact#SNResponse> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> ;
+                                                   rdfs:label "S–N response" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ScanStrategy
+<https://taxonomy.ceitec.vut.cz/pspact#ScanStrategy> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+                                                     rdfs:label "scan strategy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SchemaOntologyMapping
+<https://taxonomy.ceitec.vut.cz/pspact#SchemaOntologyMapping> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+                                                              rdfs:label "schema/ontology mapping" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SeebeckCoefficient
+<https://taxonomy.ceitec.vut.cz/pspact#SeebeckCoefficient> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport> ;
+                                                           rdfs:label "Seebeck coefficient" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SegregationIndex
+<https://taxonomy.ceitec.vut.cz/pspact#SegregationIndex> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+                                                         rdfs:label "segregation index" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SegregationPatterns
+<https://taxonomy.ceitec.vut.cz/pspact#SegregationPatterns> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> ;
+                                                            rdfs:label "Segregation patterns" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Selectivity
+<https://taxonomy.ceitec.vut.cz/pspact#Selectivity> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> ;
+                                                    rdfs:label "selectivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior
+<https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+                                                               rdfs:label "Semiconducting behavior" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Sequence
+<https://taxonomy.ceitec.vut.cz/pspact#Sequence> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+                                                 rdfs:label "sequence" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance
+<https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> ;
+                                                           rdfs:label "Service performance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ShapeAnisotropy
+<https://taxonomy.ceitec.vut.cz/pspact#ShapeAnisotropy> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+                                                        rdfs:label "shape anisotropy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ShearStrength
+<https://taxonomy.ceitec.vut.cz/pspact#ShearStrength> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> ;
+                                                      rdfs:label "shear strength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ShearStrength_Joining
+<https://taxonomy.ceitec.vut.cz/pspact#ShearStrength_Joining> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> ;
+                                                              rdfs:label "shear strength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Shrinkage
+<https://taxonomy.ceitec.vut.cz/pspact#Shrinkage> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+                                                  rdfs:label "shrinkage" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Shrinkage_Consolidation
+<https://taxonomy.ceitec.vut.cz/pspact#Shrinkage_Consolidation> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+                                                                rdfs:label "shrinkage" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SigmaValues
+<https://taxonomy.ceitec.vut.cz/pspact#SigmaValues> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> ;
+                                                    rdfs:label "Σ-values" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SignalToNoiseRatio
+<https://taxonomy.ceitec.vut.cz/pspact#SignalToNoiseRatio> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> ;
+                                                           rdfs:label "Signal-to-noise ratio" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification
+<https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Consolidation> ;
+                                                               rdfs:label "Sintering & densification" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SinteringTemperatureTime
+<https://taxonomy.ceitec.vut.cz/pspact#SinteringTemperatureTime> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+                                                                 rdfs:label "Sintering temperature/time" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SiteOccupancy
+<https://taxonomy.ceitec.vut.cz/pspact#SiteOccupancy> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> ;
+                                                      rdfs:label "site occupancy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SizeDistribution
+<https://taxonomy.ceitec.vut.cz/pspact#SizeDistribution> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+                                                         rdfs:label "size distribution" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SolidificationMetrics
+<https://taxonomy.ceitec.vut.cz/pspact#SolidificationMetrics> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+                                                              rdfs:label "solidification metrics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SolidificationRate
+<https://taxonomy.ceitec.vut.cz/pspact#SolidificationRate> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+                                                           rdfs:label "Solidification rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SoundAbsorptionCoefficient
+<https://taxonomy.ceitec.vut.cz/pspact#SoundAbsorptionCoefficient> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+                                                                   rdfs:label "Sound absorption coefficient" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SpaceGroup
+<https://taxonomy.ceitec.vut.cz/pspact#SpaceGroup> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+                                                   rdfs:label "space group" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SpatterInstabilityIndicators
+<https://taxonomy.ceitec.vut.cz/pspact#SpatterInstabilityIndicators> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+                                                                     rdfs:label "spatter/instability indicators" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SpecificCapacity
+<https://taxonomy.ceitec.vut.cz/pspact#SpecificCapacity> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> ;
+                                                         rdfs:label "Specific capacity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SquarenessRatio
+<https://taxonomy.ceitec.vut.cz/pspact#SquarenessRatio> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> ;
+                                                        rdfs:label "squareness ratio" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#StabilityRegions
+<https://taxonomy.ceitec.vut.cz/pspact#StabilityRegions> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+                                                         rdfs:label "stability regions" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Stoichiometry
+<https://taxonomy.ceitec.vut.cz/pspact#Stoichiometry> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+                                                      rdfs:label "stoichiometry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Strain
+<https://taxonomy.ceitec.vut.cz/pspact#Strain> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> ;
+                                               rdfs:label "strain" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#StrainHardening
+<https://taxonomy.ceitec.vut.cz/pspact#StrainHardening> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> ;
+                                                        rdfs:label "strain hardening" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#StrengthRetention
+<https://taxonomy.ceitec.vut.cz/pspact#StrengthRetention> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalShock> ;
+                                                          rdfs:label "Strength retention" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#StressRelaxationRate
+<https://taxonomy.ceitec.vut.cz/pspact#StressRelaxationRate> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> ;
+                                                             rdfs:label "stress relaxation rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#StressStrainCurve
+<https://taxonomy.ceitec.vut.cz/pspact#StressStrainCurve> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+                                                          rdfs:label "stress–strain curve" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#StressStrainFields
+<https://taxonomy.ceitec.vut.cz/pspact#StressStrainFields> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> ;
+                                                           rdfs:label "Stress–strain fields"@en .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis
+<https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+                                                          rdfs:label "Structure analysis" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SuccessFailureRate
+<https://taxonomy.ceitec.vut.cz/pspact#SuccessFailureRate> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+                                                           rdfs:label "success/failure rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Superconductivity
+<https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+                                                          rdfs:label "Superconductivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Superheat
+<https://taxonomy.ceitec.vut.cz/pspact#Superheat> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+                                                  rdfs:label "superheat" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceChemistry
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceChemistry> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+                                                         rdfs:label "surface chemistry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergy
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergy> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> ;
+                                                      rdfs:label "surface energy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> ;
+                                                             rdfs:label "Surface energy & wetting" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                           rdfs:label "Surface & Interfacial" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> ;
+                                                            rdfs:label "Surface modification" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceRoughness
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceRoughness> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> ;
+                                                         rdfs:label "Surface roughness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+                                                        rdfs:label "Surface & Thin-film" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> ;
+                                                          rdfs:label "Surface topography" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Susceptibility
+<https://taxonomy.ceitec.vut.cz/pspact#Susceptibility> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Magnetization> ;
+                                                       rdfs:label "Susceptibility" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Swelling
+<https://taxonomy.ceitec.vut.cz/pspact#Swelling> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+                                                 rdfs:label "swelling" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#SynergisticDegradation
+<https://taxonomy.ceitec.vut.cz/pspact#SynergisticDegradation> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> ;
+                                                               rdfs:label "Synergistic degradation" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TOFTON
+<https://taxonomy.ceitec.vut.cz/pspact#TOFTON> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> ;
+                                               rdfs:label "TOF/TON" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TafelSlope
+<https://taxonomy.ceitec.vut.cz/pspact#TafelSlope> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> ;
+                                                   rdfs:label "Tafel slope" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Tc
+<https://taxonomy.ceitec.vut.cz/pspact#Tc> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> ;
+                                           rdfs:label "Tc" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TemperaturePressureTimeProfile
+<https://taxonomy.ceitec.vut.cz/pspact#TemperaturePressureTimeProfile> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> ;
+                                                                       rdfs:label "Temperature–pressure–time profile" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalConductivity
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalConductivity> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport> ;
+                                                            rdfs:label "Thermal conductivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalDiffusivity
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalDiffusivity> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport> ;
+                                                           rdfs:label "thermal diffusivity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+                                                         rdfs:label "Thermal expansion" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalGradient
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalGradient> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+                                                        rdfs:label "thermal gradient" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalHistories
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalHistories> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+                                                         rdfs:label "Thermal histories" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> ;
+                                                               rdfs:label "Thermal & kinetic spraying" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                          rdfs:label "Thermal Properties" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalShock
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalShock> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> ;
+                                                     rdfs:label "Thermal shock" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly> ;
+                                                                 rdfs:label "Thermal & solid-state joining" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalStability
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalStability> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+                                                         rdfs:label "Thermal stability" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalStrain
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalStrain> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> ;
+                                                      rdfs:label "thermal strain" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+                                                         rdfs:label "Thermal transport" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics
+<https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+                                                       rdfs:label "Thermodynamics" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric
+<https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                       rdfs:label "Thermoelectric" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency
+<https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric> ;
+                                                                 rdfs:label "Thermoelectric efficiency" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport
+<https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric> ;
+                                                                rdfs:label "Thermoelectric transport" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Thickness
+<https://taxonomy.ceitec.vut.cz/pspact#Thickness> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+                                                  rdfs:label "Thickness" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Throughput
+<https://taxonomy.ceitec.vut.cz/pspact#Throughput> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+                                                   rdfs:label "Throughput" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TimeToRupture
+<https://taxonomy.ceitec.vut.cz/pspact#TimeToRupture> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> ;
+                                                      rdfs:label "time to rupture" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring
+<https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring> ;
+                                                           rdfs:label "Top-down structuring" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TotalFormationEnergy
+<https://taxonomy.ceitec.vut.cz/pspact#TotalFormationEnergy> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+                                                             rdfs:label "Total/formation energy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TransferenceNumber
+<https://taxonomy.ceitec.vut.cz/pspact#TransferenceNumber> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> ;
+                                                           rdfs:label "transference number" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties
+<https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+                                                               rdfs:label "Tribological Properties" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#UTS
+<https://taxonomy.ceitec.vut.cz/pspact#UTS> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+                                            rdfs:label "UTS (ultimate tensile strength)" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Uniformity
+<https://taxonomy.ceitec.vut.cz/pspact#Uniformity> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+                                                   rdfs:label "uniformity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#VacancyInterstitialConcentration
+<https://taxonomy.ceitec.vut.cz/pspact#VacancyInterstitialConcentration> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> ;
+                                                                         rdfs:label "Vacancy/interstitial concentration" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition
+<https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> ;
+                                                        rdfs:label "Vapor deposition" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Versioning
+<https://taxonomy.ceitec.vut.cz/pspact#Versioning> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+                                                   rdfs:label "versioning" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy
+<https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> ;
+                                                                rdfs:label "Vibrational spectroscopy" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Viscosity
+<https://taxonomy.ceitec.vut.cz/pspact#Viscosity> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+                                                  rdfs:label "viscosity" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#VolumeFraction
+<https://taxonomy.ceitec.vut.cz/pspact#VolumeFraction> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> ;
+                                                       rdfs:label "volume fraction" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WaveVelocities
+<https://taxonomy.ceitec.vut.cz/pspact#WaveVelocities> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> ;
+                                                       rdfs:label "Wave velocities" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife
+<https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> ;
+                                                        rdfs:label "Wear & erosion life" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WearResistance
+<https://taxonomy.ceitec.vut.cz/pspact#WearResistance> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> ;
+                                                       rdfs:label "Wear resistance" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WearVolumeRate
+<https://taxonomy.ceitec.vut.cz/pspact#WearVolumeRate> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#WearResistance> ;
+                                                       rdfs:label "Wear volume/rate" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WeibullModulus
+<https://taxonomy.ceitec.vut.cz/pspact#WeibullModulus> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> ;
+                                                       rdfs:label "Weibull modulus" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WeldBeadGeometry
+<https://taxonomy.ceitec.vut.cz/pspact#WeldBeadGeometry> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> ;
+                                                         rdfs:label "Weld bead geometry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WeldPoolGeometry
+<https://taxonomy.ceitec.vut.cz/pspact#WeldPoolGeometry> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+                                                         rdfs:label "weld pool geometry" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WorkFunction
+<https://taxonomy.ceitec.vut.cz/pspact#WorkFunction> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+                                                     rdfs:label "work function" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#WorkOfAdhesion
+<https://taxonomy.ceitec.vut.cz/pspact#WorkOfAdhesion> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> ;
+                                                       rdfs:label "work of adhesion" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#Yield
+<https://taxonomy.ceitec.vut.cz/pspact#Yield> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+                                              rdfs:label "yield" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#YieldStrength
+<https://taxonomy.ceitec.vut.cz/pspact#YieldStrength> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+                                                      rdfs:label "Yield strength" .
+
+
+###  https://taxonomy.ceitec.vut.cz/pspact#ZT
+<https://taxonomy.ceitec.vut.cz/pspact#ZT> rdf:type owl:Class ;
+                                           rdfs:subClassOf <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency> ;
+                                           rdfs:label "ZT" .
