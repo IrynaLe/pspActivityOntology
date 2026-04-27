@@ -1,0 +1,2471 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AbsorptionCoefficient> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Absorption coefficient" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AccelerationShiftFactor> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "acceleration shift factor" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AcousticImpedance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "acoustic impedance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ActivationEnergy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "activation energy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AdhesionIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "adhesion indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AdhesionStrength> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Adhesion strength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Anisotropy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "anisotropy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ArrheniusActivationEnergy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Arrhenius activation energy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AspectRatio> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "aspect ratio" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AsperityDistribution> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "asperity distribution" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Atmosphere> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "atmosphere" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Attenuation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "attenuation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#B10Life> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "B10 life" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BandGap> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Band gap" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BandStructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "band structure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BinderContent> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "binder content" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BondStrengthIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "bond strength indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BondingType> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "bonding type" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BondlineThickness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "bondline thickness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BoundaryType> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "boundary type" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BreakdownStrength> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "breakdown strength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BreakthroughTime> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "breakthrough time" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BuildOrientation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "build orientation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BurrEdgeIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "burr/edge indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CAI> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "CAI (compression after impact)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CTE> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "CTE" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CalibrationError> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "calibration error" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CandidateRankings> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "candidate rankings" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CarrierMobilityConcentration> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "carrier mobility/concentration" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CarrierType> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "carrier type" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CellViability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Cell viability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ChargeDischargeCurves> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "charge/discharge curves" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Chemistry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "chemistry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Chemistry_Modification> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "chemistry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CoarseningRates> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "coarsening rates" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CoatingThickness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Coating thickness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CoefficientOfFriction> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Coefficient of friction" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Coercivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Coercivity (Hc)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ColloidalStability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "colloidal stability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CompactionPressure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Compaction pressure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CompositionalGradients> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "compositional gradients" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Conductivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Conductivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Conformality> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "conformality" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Connectivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "connectivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Connectivity_Porosity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "connectivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ContactAngle> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Contact angle" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ContaminationLevel> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "contamination level" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Continuity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "continuity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Conversion> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "conversion" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CoolingRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "cooling rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CoolingRates> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "cooling rates" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CoordinationNumber> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Coordination number" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CorrosionRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Corrosion rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CoulombicEfficiency> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Coulombic efficiency" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Cp> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Calorimetry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Cp" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CrackLengthDepth> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Crack length/depth" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CrackPath> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "crack path" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CreepFatigueInteraction> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "creep–fatigue interaction" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CreepRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Creep rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CriticalFlawSize> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Critical flaw size" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Crystallinity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Crystallinity"@en .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CureCycle> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Cure cycle" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DBTT> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "DBTT (ductile-to-brittle transition temperature)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DOS> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "DOS" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DaDn> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "da/dN" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DamageHAZ> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "damage/HAZ" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DamageIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "damage indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DampingRatio> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "damping ratio" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DatasetScope> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Dataset scope" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DebrisMorphology> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#WearResistance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "debris morphology" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DebyeTemperature> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Debye temperature" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DecompositionTemperature> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Decomposition temperature" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DefectFormationEnergies> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Defect formation energies" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DefectLocation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "defect location" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DegradationFactor> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Degradation factor" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DelaminationArea> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "delamination area" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DeltaSM> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "ΔSM" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DeltaTad> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "ΔTad" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DensificationRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "densification rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DensityGradients> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "density gradients" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DensityUniformity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "density uniformity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DepositionEfficiency> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "deposition efficiency" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DepositionRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "deposition rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DielectricConstant> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Dielectric constant (εr)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MassTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Diffusion coefficient" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient_Atomistic> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Diffusion coefficient" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DimensionalTolerance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "dimensional tolerance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DisorderParameter> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "disorder parameter" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Dpa> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "dpa" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DrawRatio> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "draw ratio" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DriftRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "drift rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Ductility> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "ductility" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EGKModuli> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "E/G/K moduli" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Ecorr> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Ecorr" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EfficiencyUnderLoad> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "efficiency under load" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElementaryCompositionRelativeOrAbsolute> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElementaryComposition> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Elementary composition (relative or absolute)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElongationAtBreak> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Elongation at break" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EmbrittlementIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "embrittlement indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EmissionWavelength> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Luminescence> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Emission wavelength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EnduranceLimit> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "endurance limit" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EnergyAboveHull> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "energy above hull" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EnergyInput> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Energy input" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EnthalpyOfTransition> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Calorimetry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "enthalpy of transition (ΔH)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#EtchRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "etch rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ExtrusionTemperaturePressure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Extrusion temperature/pressure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FeatureSize> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Feature size" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Flux> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MassTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "flux" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FractureAfterCycling> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalShock> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "fracture after cycling" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FractureSurfaceMorphology> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Fracture surface morphology" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FusionZoneWidth> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "fusion zone width" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#GrainGrowthIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "grain growth indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#GreenDensity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "green density" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HAZExtent> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "HAZ (heat-affected zone) extent" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HAZWidth> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "HAZ width" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HV_HB_HR> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Hardness> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "HV/HB/HR" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HallEffect> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Hall effect" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HardnessChange> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "hardness change" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HatchSpacing> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "hatch spacing" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Hc> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Hc" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HeatInput> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Heat input" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#I0> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "i0" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Ic> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Ic" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "impact energy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy_Cryogenic> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "impact energy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ImplantationDoseEnergy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "implantation dose/energy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#InitiationSite> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "initiation site" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Integrity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "integrity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#InterfaceThickness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Interface thickness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#IonicConductivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Ionic conductivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#JointEfficiencyIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "joint efficiency indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#KIC> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "KIC" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LackOfFusionIndex> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "lack-of-fusion index" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LatticeDistortion> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "lattice distortion" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LatticeParameters> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Lattice parameters" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LayerThickness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Layer thickness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Lifetime> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Luminescence> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "lifetime" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LoopArea> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "loop area" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Acoustic> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "loss tangent" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Dielectric> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "loss tangent (tan δ)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LowTemperatureStrength> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Low-temperature strength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LubricationFilmThickness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "lubrication film thickness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MAE_RMSE_R2> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "MAE (Mean Absolute Error)/RMSE (Root Mean Squared Error) /R²( Coefficient of Determination)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MSD> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "MSD" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MTTF> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "MTTF" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Magnetoresistance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Magnetoresistance (GMR/TMR/AMR)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MassLoss> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "mass loss (%)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MaterialLossRateVsTime> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Material loss rate vs time" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MeanGrainSize> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Mean grain size" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MigrationBarriers> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "migration barriers" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MisorientationAngle> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Misorientation angle" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ModifiedLayerThickness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Modified layer thickness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Moisture> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "moisture" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MoldAtmosphere> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "mold atmosphere" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Morphology> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "morphology" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Morphology_Precursor> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "morphology" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Mr> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Magnetization> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Mr" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Ms> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Magnetization> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Ms" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Nanohardness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Hardness> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "nanohardness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#NotchSensitivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "notch sensitivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#NumberDensityEvolution> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "number density evolution" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ODF> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "ODF (orientation distribution function)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Overpotential> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Overpotential" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#OxidationKinetics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "oxidation kinetics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#OxidationState> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "oxidation state" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ParetoFronts> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Pareto fronts" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ParticleSize> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Particle size" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ParticleSizeDistribution> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Particle size distribution" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PatternFidelity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "pattern fidelity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PeltierThomsonCoefficients> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Peltier/Thomson coefficients" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Permeability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MassTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "permeability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseBoundaries> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Phase boundaries" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "phase fraction" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction_Microstructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Phase fraction" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseFractions> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "phase fractions" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhononDispersionDOS> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Phonon dispersion/DOS" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhononModes> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "phonon modes" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PoissonsRatio> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Poisson’s ratio" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PoleFigures> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "pole figures" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PoreSizeDistribution> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Pore size distribution" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PorosityDensity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "porosity/density" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PorosityFraction> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Porosity fraction" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PouringTemperature> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Pouring temperature" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PowerFactor> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "power factor (S²σ)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PrecipitateSizeDensity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "precipitate size/density" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PredictedPorosityRisk> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "predicted porosity risk" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PredictedSizeDistributionsVsTime> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Predicted size distributions vs time" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PredictionIntervals> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "prediction intervals" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PreferredOrientation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Preferred orientation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Proliferation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "proliferation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ProofStress> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "proof stress" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ProteinAdsorption> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "protein adsorption" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Provenance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "provenance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PullOffForce> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "pull-off force" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Purity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "purity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#QFactor> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Q factor" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#QuantumYield> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Luminescence> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "quantum yield" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RDF> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "RDF" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RaRz> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Ra/Rz" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RamanShift> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Raman shift" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RateConstants> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "rate constants" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RecombinationLifetime> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "recombination lifetime" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RecoveryEfficiency> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Recovery efficiency" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RecyclateMorphology> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "recyclate morphology" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ReductionOfArea> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "reduction of area" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Reflectance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "reflectance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RefractiveIndex> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "refractive index" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RelativeDensity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "relative density" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Repeatability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "repeatability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ResidualStress> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "residual stress" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Resistivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "resistivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Roughness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "roughness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Roughness_Modification> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "roughness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Roughness_Surface> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "roughness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SCCIndex> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "SCC index" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SNResponse> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "S–N response" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ScanStrategy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "scan strategy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SchemaOntologyMapping> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "schema/ontology mapping" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SeebeckCoefficient> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Seebeck coefficient" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SegregationIndex> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "segregation index" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SegregationPatterns> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Segregation patterns" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Selectivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "selectivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Sequence> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "sequence" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ShapeAnisotropy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "shape anisotropy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ShearStrength> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "shear strength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ShearStrength_Joining> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "shear strength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Shrinkage> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "shrinkage" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Shrinkage_Consolidation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "shrinkage" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SigmaValues> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Σ-values" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SignalToNoiseRatio> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Signal-to-noise ratio" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SinteringTemperatureTime> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Sintering temperature/time" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SiteOccupancy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "site occupancy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SizeDistribution> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "size distribution" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SolidificationMetrics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "solidification metrics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SolidificationRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Solidification rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SoundAbsorptionCoefficient> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Sound absorption coefficient" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SpaceGroup> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "space group" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SpatterInstabilityIndicators> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "spatter/instability indicators" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SpecificCapacity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Specific capacity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SquarenessRatio> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "squareness ratio" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#StabilityRegions> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "stability regions" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Stoichiometry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "stoichiometry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Strain> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "strain" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#StrainHardening> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "strain hardening" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#StrengthRetention> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalShock> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Strength retention" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#StressRelaxationRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "stress relaxation rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#StressStrainCurve> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "stress–strain curve" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#StressStrainFields> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Stress–strain fields"@en .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SuccessFailureRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "success/failure rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Superheat> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "superheat" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceChemistry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "surface chemistry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "surface energy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceRoughness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Surface roughness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Susceptibility> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Magnetization> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Susceptibility" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Swelling> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "swelling" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SynergisticDegradation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Synergistic degradation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TOFTON> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "TOF/TON" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TafelSlope> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Tafel slope" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Tc> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Tc" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TemperaturePressureTimeProfile> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Temperature–pressure–time profile" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalConductivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Thermal conductivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalDiffusivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "thermal diffusivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalGradient> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "thermal gradient" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalHistories> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Thermal histories" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalStrain> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "thermal strain" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Thickness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Thickness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Throughput> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Throughput" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TimeToRupture> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "time to rupture" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TotalFormationEnergy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Total/formation energy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TransferenceNumber> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "transference number" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#UTS> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "UTS (ultimate tensile strength)" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Uniformity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "uniformity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#VacancyInterstitialConcentration> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Vacancy/interstitial concentration" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Versioning> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DataCuration> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "versioning" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Viscosity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "viscosity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#VolumeFraction> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "volume fraction" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WaveVelocities> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Wave velocities" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WearVolumeRate> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#WearResistance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Wear volume/rate" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WeibullModulus> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Weibull modulus" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WeldBeadGeometry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Weld bead geometry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WeldPoolGeometry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "weld pool geometry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WorkFunction> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "work function" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WorkOfAdhesion> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "work of adhesion" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Yield> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "yield" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#YieldStrength> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "Yield strength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ZT> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:prefLabel "ZT" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElementaryComposition> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ElementaryCompositionRelativeOrAbsolute> ;
+    skos:prefLabel "Elementary composition" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FeedstockSynthesis> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> ;
+    skos:prefLabel "Feedstock & Synthesis" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> ;
+    skos:prefLabel "Additive Manufacturing" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Calorimetry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Cp>,
+        <https://taxonomy.ceitec.vut.cz/pspact#EnthalpyOfTransition> ;
+    skos:prefLabel "Calorimetry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> ;
+    skos:prefLabel "Continuum & Process" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> ;
+    skos:prefLabel "Damage Tolerance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#EGKModuli>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PoissonsRatio> ;
+    skos:prefLabel "Elasticity & stiffness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> ;
+    skos:prefLabel "Finishing & Circularity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CoefficientOfFriction>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LubricationFilmThickness> ;
+    skos:prefLabel "Friction & lubrication" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Hardness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#HV_HB_HR>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Nanohardness> ;
+    skos:prefLabel "Hardness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> ;
+    skos:prefLabel "Joining & Assembly" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DebyeTemperature>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhononDispersionDOS> ;
+    skos:prefLabel "Lattice dynamics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#HallEffect>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Magnetoresistance> ;
+    skos:prefLabel "Magneto-transport" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DeltaSM>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DeltaTad> ;
+    skos:prefLabel "Magnetocaloric effect" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> ;
+    skos:prefLabel "Nano-structuring" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading>,
+        <https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> ;
+    skos:prefLabel "Service performance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AsperityDistribution>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RaRz> ;
+    skos:prefLabel "Surface topography" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalShock> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#FractureAfterCycling>,
+        <https://taxonomy.ceitec.vut.cz/pspact#StrengthRetention> ;
+    skos:prefLabel "Thermal shock" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalStability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DecompositionTemperature>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MassLoss> ;
+    skos:prefLabel "Thermal stability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ThermalConductivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalDiffusivity> ;
+    skos:prefLabel "Thermal transport" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> ;
+    skos:prefLabel "Thermodynamics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport> ;
+    skos:prefLabel "Thermoelectric" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricEfficiency> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#PowerFactor>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ZT> ;
+    skos:prefLabel "Thermoelectric efficiency" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermoelectricTransport> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#PeltierThomsonCoefficients>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SeebeckCoefficient> ;
+    skos:prefLabel "Thermoelectric transport" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BreakthroughTime>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MaterialLossRateVsTime> ;
+    skos:prefLabel "Wear & erosion life" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#WearResistance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DebrisMorphology>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WearVolumeRate> ;
+    skos:prefLabel "Wear resistance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AccelerationShiftFactor>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ArrheniusActivationEnergy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DegradationFactor> ;
+    skos:prefLabel "Accelerated aging" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AcousticImpedance>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Attenuation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WaveVelocities> ;
+    skos:prefLabel "Acoustic propagation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AcousticPropagation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LatticeDynamics> ;
+    skos:prefLabel "Acoustic & Vibrational" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AdhesiveHybridJoining> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BondlineThickness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CureCycle>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ShearStrength_Joining> ;
+    skos:prefLabel "Adhesive & hybrid joining" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BondingType>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CoordinationNumber>,
+        <https://taxonomy.ceitec.vut.cz/pspact#OxidationState> ;
+    skos:prefLabel "Atomic bonding & coordination" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CellViability>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Proliferation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ProteinAdsorption> ;
+    skos:prefLabel "Biocompatibility" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Conversion>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Selectivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TOFTON> ;
+    skos:prefLabel "Catalytic activity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CarrierMobilityConcentration>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Conductivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Resistivity> ;
+    skos:prefLabel "Charge transport" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CombinedLoading> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CreepFatigueInteraction>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SCCIndex>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SynergisticDegradation> ;
+    skos:prefLabel "Combined loading" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Consolidation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> ;
+    skos:prefLabel "Consolidation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CorrosionRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Ecorr>,
+        <https://taxonomy.ceitec.vut.cz/pspact#OxidationKinetics> ;
+    skos:prefLabel "Corrosion & oxidation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CreepRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#StressRelaxationRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TimeToRupture> ;
+    skos:prefLabel "Creep & relaxation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Ductility>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy_Cryogenic>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LowTemperatureStrength> ;
+    skos:prefLabel "Cryogenic performance" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ODF>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PoleFigures>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PreferredOrientation> ;
+    skos:prefLabel "Crystallographic texture" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DefectFormationEnergies>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MigrationBarriers>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RateConstants> ;
+    skos:prefLabel "Defect & reaction kinetics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DefectSensitivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CAI>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CriticalFlawSize>,
+        <https://taxonomy.ceitec.vut.cz/pspact#NotchSensitivity> ;
+    skos:prefLabel "Defect sensitivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BreakdownStrength>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DielectricConstant>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Dielectric> ;
+    skos:prefLabel "Dielectric & ferroelectric" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AcceleratedAging>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WearErosionLife> ;
+    skos:prefLabel "Durability & Lifetime" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#I0>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Overpotential>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TafelSlope> ;
+    skos:prefLabel "Electrochemical kinetics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ChargeDischargeCurves>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CoulombicEfficiency>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SpecificCapacity> ;
+    skos:prefLabel "Electrochemical storage" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CryogenicPerformance>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalShock> ;
+    skos:prefLabel "Extreme Environments" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FailureModeAnalysis> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CrackPath>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FractureSurfaceMorphology>,
+        <https://taxonomy.ceitec.vut.cz/pspact#InitiationSite> ;
+    skos:prefLabel "Failure mode analysis" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DaDn>,
+        <https://taxonomy.ceitec.vut.cz/pspact#EnduranceLimit>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SNResponse> ;
+    skos:prefLabel "Fatigue & cyclic behavior" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DrawRatio>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ExtrusionTemperaturePressure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Strain> ;
+    skos:prefLabel "Forming & extrusion" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#FractureToughness> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DBTT>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ImpactEnergy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#KIC> ;
+    skos:prefLabel "Fracture & toughness" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BoundaryType>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MisorientationAngle>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SigmaValues> ;
+    skos:prefLabel "Grain boundary character" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AdhesionStrength>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PullOffForce>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ShearStrength> ;
+    skos:prefLabel "Interfacial adhesion" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#IonicTransport> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ActivationEnergy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#IonicConductivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TransferenceNumber> ;
+    skos:prefLabel "Ionic transport" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#FusionZoneWidth>,
+        <https://taxonomy.ceitec.vut.cz/pspact#HAZExtent>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WeldBeadGeometry> ;
+    skos:prefLabel "Joint & assembly geometry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Luminescence> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#EmissionWavelength>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Lifetime>,
+        <https://taxonomy.ceitec.vut.cz/pspact#QuantumYield> ;
+    skos:prefLabel "Luminescence" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CalibrationError>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MAE_RMSE_R2>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PredictionIntervals> ;
+    skos:prefLabel "Machine learning" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MachiningFinishing> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BurrEdgeIndicators>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DimensionalTolerance>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SurfaceRoughness> ;
+    skos:prefLabel "Machining & finishing" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CompositionalGradients>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DensityGradients>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SegregationPatterns> ;
+    skos:prefLabel "Macro-scale homogeneity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Coercivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LoopArea>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SquarenessRatio> ;
+    skos:prefLabel "Magnetic switching" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Magnetization> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Mr>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Ms>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Susceptibility> ;
+    skos:prefLabel "Magnetization" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MassTransport> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Flux>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Permeability> ;
+    skos:prefLabel "Mass transport" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DataCuration>,
+        <https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MachineLearning> ;
+    skos:prefLabel "Materials Informatics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MicrostructureKinetics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CoarseningRates>,
+        <https://taxonomy.ceitec.vut.cz/pspact#NumberDensityEvolution>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PredictedSizeDistributionsVsTime> ;
+    skos:prefLabel "Microstructure kinetics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MultiScaleResponse> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DamageIndicators>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ResidualStress>,
+        <https://taxonomy.ceitec.vut.cz/pspact#StressStrainFields> ;
+    skos:prefLabel "Multi-scale response" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#OperationalStability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DriftRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#EfficiencyUnderLoad>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SignalToNoiseRatio> ;
+    skos:prefLabel "Operational stability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Luminescence>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse>,
+        <https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> ;
+    skos:prefLabel "Optical Properties" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DamageTolerance>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ServicePerformance> ;
+    skos:prefLabel "Performance evaluation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Connectivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction_Microstructure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PrecipitateSizeDensity> ;
+    skos:prefLabel "Phase distribution & morphology" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhotonicResponse> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AbsorptionCoefficient>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Reflectance>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RefractiveIndex> ;
+    skos:prefLabel "Photonic response" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ElongationAtBreak>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ReductionOfArea>,
+        <https://taxonomy.ceitec.vut.cz/pspact#StrainHardening> ;
+    skos:prefLabel "Plasticity & ductility" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#LatticeDistortion>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SiteOccupancy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#VacancyInterstitialConcentration> ;
+    skos:prefLabel "Point defect structure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Connectivity_Porosity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PoreSizeDistribution>,
+        <https://taxonomy.ceitec.vut.cz/pspact#VolumeFraction> ;
+    skos:prefLabel "Porosity & void analysis" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PressureAssistedConsolidation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Consolidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DensificationRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#GrainGrowthIndicators>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TemperaturePressureTimeProfile> ;
+    skos:prefLabel "Pressure-assisted consolidation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CastingMolding>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FormingExtrusion>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> ;
+    skos:prefLabel "Primary Shaping" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DefectReactionKinetics>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> ;
+    skos:prefLabel "Quantum & Atomistic" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RecyclingRecovery> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ContaminationLevel>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RecoveryEfficiency>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RecyclateMorphology> ;
+    skos:prefLabel "Recycling & recovery" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ReliabilityFailure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#DurabilityLifetime> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#B10Life>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MTTF>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WeibullModulus> ;
+    skos:prefLabel "Reliability & failure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BandGap>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CarrierType>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RecombinationLifetime> ;
+    skos:prefLabel "Semiconducting behavior" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+    skos:prefLabel "Structure analysis" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Hc>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Ic>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Tc> ;
+    skos:prefLabel "Superconductivity" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ContactAngle>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WorkOfAdhesion> ;
+    skos:prefLabel "Surface energy & wetting" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Biocompatibility>,
+        <https://taxonomy.ceitec.vut.cz/pspact#InterfacialAdhesion>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SurfaceEnergyWetting> ;
+    skos:prefLabel "Surface & Interfacial" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying>,
+        <https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> ;
+    skos:prefLabel "Surface & Thin-film" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Anisotropy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CTE>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalStrain> ;
+    skos:prefLabel "Thermal expansion" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#FrictionLubrication>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SurfaceTopography>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WearResistance> ;
+    skos:prefLabel "Tribological Properties" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#VibrationalSpectroscopy> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DisorderParameter>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhononModes>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RamanShift> ;
+    skos:prefLabel "Vibrational spectroscopy" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AtomicBondingCoordination>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ElementaryComposition>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PointDefectStructure> ;
+    skos:prefLabel "Atomic & Molecular structure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#AtomisticDynamics> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DiffusionCoefficient_Atomistic>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MSD>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RDF>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Viscosity> ;
+    skos:prefLabel "Atomistic dynamics" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#BottomUpSynthesis> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ColloidalStability>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ParticleSizeDistribution>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ShapeAnisotropy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Yield> ;
+    skos:prefLabel "Bottom-up synthesis" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CastingMolding> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CoolingRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MoldAtmosphere>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PouringTemperature>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Shrinkage> ;
+    skos:prefLabel "Casting & molding" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#CrystalStructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AtomicMolecularStructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Crystallinity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LatticeParameters>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhaseFraction>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SpaceGroup> ;
+    skos:prefLabel "Crystal structure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CrackLengthDepth>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DefectLocation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DelaminationArea>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Integrity> ;
+    skos:prefLabel "Damage & defect mapping" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DampingAbsorption> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DampingRatio>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LossTangent_Acoustic>,
+        <https://taxonomy.ceitec.vut.cz/pspact#QFactor>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SoundAbsorptionCoefficient> ;
+    skos:prefLabel "Damping & absorption" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DataCuration> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DatasetScope>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Provenance>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SchemaOntologyMapping>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Versioning> ;
+    skos:prefLabel "Data curation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics>,
+        <https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics> ;
+    skos:prefLabel "Design & discovery" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ChargeTransport>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DielectricFerroelectric>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SemiconductingBehavior>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Superconductivity> ;
+    skos:prefLabel "Electrical & Electronic" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ElectronicStructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#QuantumAtomistic> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BandStructure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DOS>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TotalFormationEnergy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WorkFunction> ;
+    skos:prefLabel "Electronic structure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AspectRatio>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MeanGrainSize>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Morphology>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SizeDistribution> ;
+    skos:prefLabel "Grain architecture" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#HighThroughputDiscovery> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MaterialsInformatics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CandidateRankings>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ParetoFronts>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SuccessFailureRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Throughput> ;
+    skos:prefLabel "High-throughput discovery" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Microstructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AdhesionIndicators>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Chemistry>,
+        <https://taxonomy.ceitec.vut.cz/pspact#InterfaceThickness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Roughness> ;
+    skos:prefLabel "Interface & interphase character" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LayerWiseFabrication> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BuildOrientation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#EnergyInput>,
+        <https://taxonomy.ceitec.vut.cz/pspact#HatchSpacing>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ScanStrategy> ;
+    skos:prefLabel "Layer-wise fabrication" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Continuity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LayerThickness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Sequence>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Uniformity> ;
+    skos:prefLabel "Layered & coating geometry" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Macrostructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DamageDefectMapping>,
+        <https://taxonomy.ceitec.vut.cz/pspact#JointAssemblyGeometry>,
+        <https://taxonomy.ceitec.vut.cz/pspact#LayeredCoatingGeometry>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MacroScaleHomogeneity> ;
+    skos:prefLabel "Macrostructure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#MagneticSwitching>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Magnetization>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MagnetoTransport>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MagnetocaloricEffect> ;
+    skos:prefLabel "Magnetic Properties" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MeltingSolidification> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Consolidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#SegregationIndex>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SolidificationRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Superheat>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalGradient> ;
+    skos:prefLabel "Melting & solidification" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PhaseStability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Thermodynamics> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#EnergyAboveHull>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhaseBoundaries>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhaseFractions>,
+        <https://taxonomy.ceitec.vut.cz/pspact#StabilityRegions> ;
+    skos:prefLabel "Phase stability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PowderCompaction> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BinderContent>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CompactionPressure>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DensityUniformity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#GreenDensity> ;
+    skos:prefLabel "Powder compaction" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ProcessStability> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#LackOfFusionIndex>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PorosityFraction>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Repeatability>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SpatterInstabilityIndicators> ;
+    skos:prefLabel "Process stability" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ProcessStructureLinks> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ContinuumProcess> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CoolingRates>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PredictedPorosityRisk>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SolidificationMetrics>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalHistories> ;
+    skos:prefLabel "Process–structure links" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#ProofStress>,
+        <https://taxonomy.ceitec.vut.cz/pspact#StressStrainCurve>,
+        <https://taxonomy.ceitec.vut.cz/pspact#UTS>,
+        <https://taxonomy.ceitec.vut.cz/pspact#YieldStrength> ;
+    skos:prefLabel "Quasi-static strength" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#RadiationDamage> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Dpa>,
+        <https://taxonomy.ceitec.vut.cz/pspact#EmbrittlementIndicators>,
+        <https://taxonomy.ceitec.vut.cz/pspact#HardnessChange>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Swelling> ;
+    skos:prefLabel "Radiation damage" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SinteringDensification> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#Consolidation> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Atmosphere>,
+        <https://taxonomy.ceitec.vut.cz/pspact#RelativeDensity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Shrinkage_Consolidation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SinteringTemperatureTime> ;
+    skos:prefLabel "Sintering & densification" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#SurfaceModification> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Chemistry_Modification>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ImplantationDoseEnergy>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ModifiedLayerThickness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Roughness_Modification> ;
+    skos:prefLabel "Surface modification" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalKineticSpraying> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#BondStrengthIndicators>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CoatingThickness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DepositionEfficiency>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PorosityDensity> ;
+    skos:prefLabel "Thermal & kinetic spraying" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Calorimetry>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalExpansion>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalStability>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalTransport> ;
+    skos:prefLabel "Thermal Properties" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ThermalSolidStateJoining> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#HAZWidth>,
+        <https://taxonomy.ceitec.vut.cz/pspact#HeatInput>,
+        <https://taxonomy.ceitec.vut.cz/pspact#JointEfficiencyIndicators>,
+        <https://taxonomy.ceitec.vut.cz/pspact#WeldPoolGeometry> ;
+    skos:prefLabel "Thermal & solid-state joining" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#TopDownStructuring> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DamageHAZ>,
+        <https://taxonomy.ceitec.vut.cz/pspact#EtchRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FeatureSize>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PatternFidelity> ;
+    skos:prefLabel "Top-down structuring" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#VaporDeposition> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Conformality>,
+        <https://taxonomy.ceitec.vut.cz/pspact#DepositionRate>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Roughness_Surface>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Thickness> ;
+    skos:prefLabel "Vapor deposition" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> a skos:Concept ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#DesignDiscovery>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PerformanceEvaluation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis>,
+        <https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> ;
+    skos:prefLabel "PSP Activity"@en ;
+    skos:topConceptOf <http://taxonomy.ceitec.vut.cz/pspact> .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CatalyticActivity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#CorrosionOxidation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalKinetics>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ElectrochemicalStorage>,
+        <https://taxonomy.ceitec.vut.cz/pspact#IonicTransport>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MassTransport> ;
+    skos:prefLabel "Chemical & Electrochemical" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#Microstructure> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#StructureAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CrystallographicTexture>,
+        <https://taxonomy.ceitec.vut.cz/pspact#GrainArchitecture>,
+        <https://taxonomy.ceitec.vut.cz/pspact#GrainBoundaryCharacter>,
+        <https://taxonomy.ceitec.vut.cz/pspact#InterfaceInterphaseCharacter>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PhaseDistributionMorphology>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PorosityVoidAnalysis> ;
+    skos:prefLabel "Microstructure" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PrecursorPreparation> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#FeedstockSynthesis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#Moisture>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Morphology_Precursor>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ParticleSize>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Purity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Stoichiometry>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SurfaceChemistry> ;
+    skos:prefLabel "Precursor preparation" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#CreepRelaxation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ElasticityStiffness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FatigueCyclicBehavior>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FractureToughness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Hardness>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PlasticityDuctility>,
+        <https://taxonomy.ceitec.vut.cz/pspact#QuasiStaticStrength> ;
+    skos:prefLabel "Mechanical Properties" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#ProcessingFabrication> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AdditiveManufacturing>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Consolidation>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FeedstockSynthesis>,
+        <https://taxonomy.ceitec.vut.cz/pspact#FinishingCircularity>,
+        <https://taxonomy.ceitec.vut.cz/pspact#JoiningAssembly>,
+        <https://taxonomy.ceitec.vut.cz/pspact#NanoStructuring>,
+        <https://taxonomy.ceitec.vut.cz/pspact#PrimaryShaping>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SurfaceThinFilm> ;
+    skos:prefLabel "Processing & fabrication" .
+
+<https://taxonomy.ceitec.vut.cz/pspact#PropertyAnalysis> a skos:Concept ;
+    skos:broader <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+    skos:inScheme <http://taxonomy.ceitec.vut.cz/pspact> ;
+    skos:narrower <https://taxonomy.ceitec.vut.cz/pspact#AcousticVibrational>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ChemicalElectrochemical>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ElectricalElectronic>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ExtremeEnvironments>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MagneticProperties>,
+        <https://taxonomy.ceitec.vut.cz/pspact#MechanicalProperties>,
+        <https://taxonomy.ceitec.vut.cz/pspact#OpticalProperties>,
+        <https://taxonomy.ceitec.vut.cz/pspact#SurfaceInterfacial>,
+        <https://taxonomy.ceitec.vut.cz/pspact#ThermalProperties>,
+        <https://taxonomy.ceitec.vut.cz/pspact#Thermoelectric>,
+        <https://taxonomy.ceitec.vut.cz/pspact#TribologicalProperties> ;
+    skos:prefLabel "Property analysis" .
+
+<http://taxonomy.ceitec.vut.cz/pspact> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://taxonomy.ceitec.vut.cz/pspact#PSPActivity> ;
+    skos:prefLabel "PSP Activity Taxonomy"@en .
+
